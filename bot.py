@@ -14,5 +14,5 @@ updater.dispatcher.add_handler(CommandHandler('start' , start))
 
 TOKEN = "1429548938:AAGFez9aLIvodiAxpRtxJsMVskFsMdpUt34"
 updater.start_webhook(listen="0.0.0.0",port=int(PORT),url_path=TOKEN)
-updater.bot.setWebhook('https://powerful-gorge-46204.herokuapp.com/' + TOKEN)
+updater.bot.setWebhook('https://gentle-reaches-14406.herokuapp.com/' + TOKEN)
 updater.idle()
